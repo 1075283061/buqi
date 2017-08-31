@@ -1,0 +1,11 @@
+.header{
+  height: 160px;
+}
+.header_div{
+  width: 1100px;
+  margin: 0 auto;
+}
+.header_a{
+  float: left;
+  display: block;
+}
