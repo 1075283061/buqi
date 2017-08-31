@@ -1,11 +1,24 @@
 .header{
-  height: 160px;
+  position: absolute;
+  background: #fdfdfd;
 }
 .header_div{
   width: 1100px;
+  height: 160px;
   margin: 0 auto;
 }
-.header_a{
+.logo{
   float: left;
   display: block;
+}
+.header_nav{
+  margin: 180px;
+}
+.header_ul{
+  text-decoration: none;
+  display: table;
+  width: 100%;
+}
+.header_li{
+  display: table-cell;
 }
