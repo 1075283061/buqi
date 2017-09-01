@@ -162,7 +162,11 @@ a{
   background: #d2d2d2;
   border-radius: 50%;
 }
+.main_rt a:hover {
+  background: #ac8f58;
+}
 .main_rt p{
+  color: #C6C6C6;
   padding: 0 24px 0 24px;
 }
 /* bm */
