@@ -57,7 +57,7 @@
                     <p class="en_p">contact</p>
                     </a>   
                 </li>
-                <li>
+                <li class="header_li">
                     <a href="" class="language">中</a>
                     <a href="" class="language">EN</a>
                 </li>

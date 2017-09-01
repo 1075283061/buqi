@@ -6,19 +6,38 @@
   width: 1100px;
   height: 160px;
   margin: 0 auto;
+  display: table;
 }
 .logo{
-  float: left;
-  display: block;
+  display: table-cell;
+  vertical-align: middle;
 }
 .header_nav{
-  margin: 180px;
+  display: table-cell;
+  vertical-align: middle;
 }
 .header_ul{
-  text-decoration: none;
+  text-decoration-style: none;
   display: table;
   width: 100%;
+  padding: 0;
 }
 .header_li{
   display: table-cell;
+  vertical-align: top;
+  width: 10%;
+}
+.header_li p{
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.cn_p{
+  width: 17px;
+  font-size: 17px;
+}
+.en_p{
+  font-size: 12px;
+  transform:rotate(90deg);
 }
