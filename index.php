@@ -1,6 +1,7 @@
 <?php require_once "./head.php";?>
     <!-- banner -->
     <div class="index_banner">
+      <div class="index_span"></div>
       <img src="./img/index_banner1.jpg" alt="index_banner">
     </div>
     <!-- index_logo -->

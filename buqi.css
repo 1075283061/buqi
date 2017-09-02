@@ -216,9 +216,14 @@ a{
 .index_banner img{
   display: block;
 }
+.index_span{
+  position: absolute;
+  width: 100%;
+  height: 770px;
+  background: url("./img/banner.png");
+}
 .index_logo{
   position: fixed;
-  background: url("./img/banner.png");
   width: 100%;
   height: 770px;
   z-index: 2;
