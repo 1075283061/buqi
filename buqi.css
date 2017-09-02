@@ -4,6 +4,9 @@ body{
   font: 14px/1.6 'Microsoft YaHei',Tahoma,Verdana,'Simsun';
   overflow-x: hidden;
 }
+body,h1,h2,h3,h4,h5,h6,dl,dt,li,ol,ul,dd,th,td,p,pre,form,input,button,textarea,hr {
+  margin:0;padding:0
+}
 a{
   text-decoration: none;
 }
@@ -12,8 +15,10 @@ a{
   height: 100%;
   margin: 0 auto;
 }
-/* header开始*/
+
+/* header begin*/
 .tem_header{
+  background: #fff;
   border-bottom: 1px solid #dfdfdf;
 }
 .header_div{
@@ -90,9 +95,12 @@ a{
 .header_language a:hover {
   background: #ac8f58;
 }
-/* header结束 */
+/* header end */
 
-/* footer开始 */
+/* footer begin */
+.tem_footer{
+  background: #fff;
+}
 .footer_nav{
   padding: 25px 0 25px 0;
   height: 240px;
@@ -193,4 +201,73 @@ a{
 .footer_nav_text a{
   color: #e1e1e1; 
 }
-/* footer结束 */
+/* footer end */
+
+/* index_body begin */
+.index_banner{
+  position: fixed;
+  z-index: 1;
+}
+.index_body{
+  position: relative;
+  z-index: 99;
+  padding-top: 770px;
+}
+.index_banner img{
+  display: block;
+}
+.index_logo{
+  position: fixed;
+  background: url("./img/banner.png");
+  width: 100%;
+  height: 770px;
+  z-index: 2;
+}
+.top_table{
+  width: 100%;
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+}
+.top_logo{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+/* index_brand */
+.index_brand{
+  background: #fff;
+  border-bottom: 1px solid #dfdfdf;
+}
+.brand_content{
+  padding: 80px 0 80px 0;
+  height: 230px;
+}
+.brand_title{
+  text-align: center;
+}
+.title1{
+  font-family: 仿宋;
+  font-size: 30px;
+  display: inline-block;
+  line-height: 30px;
+  margin: 0 0 35px 0;
+}
+.title1 span{
+  display: block;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #b7b3b1;
+}
+.content_p{
+  color: #787878;
+  font-size: 14px;
+  line-height: 28px;
+}
+/* case */
+.index_case{
+  background: #fff;
+}
+.case_content{
+  height: 540px;
+}
