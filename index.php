@@ -13,9 +13,9 @@
       </div>
     </div>
     <div class="visibility"></div>
+     <!-- index_brand -->
     <div class="index_body">
       <?php require_once "./header.php";?>
-      <!-- index_brand -->
       <section class="index_brand">
         <div class="tem_div">
           <div class="brand_content">
