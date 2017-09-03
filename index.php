@@ -1,21 +1,24 @@
 <?php require_once "./head.php";?>
     <!-- banner -->
     <div class="index_banner">
-      <div class="index_span"></div>
+      <img src="./img/banner.png" alt="banner" class="index_span">
       <img src="./img/index_banner1.jpg" alt="index_banner">
     </div>
     <!-- index_logo -->
     <div class="index_logo">
       <div class="top_table">
         <div class="top_logo">
-        <img src="./img/index_logo.png" alt="logo">
+          <img src="./img/index_logo.png" alt="logo">
         </div>
       </div>
     </div>
-    <div class="visibility"></div>
      <!-- index_brand -->
     <div class="index_body">
+      <div class="visibility">
+        <img src="./img/index_banner1.jpg" alt="visibility">
+      </div>
       <?php require_once "./header.php";?>
+      <!-- index_brand -->
       <section class="index_brand">
         <div class="tem_div">
           <div class="brand_content">
@@ -39,13 +42,26 @@
       <section class="index_case">
         <div class="tem_div">
           <div class="case_content">
-          <div class="case_left">
-            <h2 class="title1">
-              <p>案例分享</p>
-              <span>Case sharing</span>
-            </h2>
+            <div class="case_left">
+              <h2 class="title1">
+                <p>案例分享</p>
+                <span>Case sharing</span>
+              </h2>
+              <div class="xian"></div>
+              <p>推荐组合</p>
+              <div class="xian"></div>
+              <a href="" class="case_more">MORE+</a>
+            </div> 
+            <div class="case_right">
+              <div class="case_box"></div>
+              <a href="" class="arrow_left">
+                <img src="" alt="">
+              </a>
+              <a href="" class="arrow_right">
+                <img src="" alt="">
+              </a>
+            </div>
           </div>
-          <div class="case_right"></div>
         </div>
       </section>
       <!-- index_product -->

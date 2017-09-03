@@ -54,9 +54,9 @@ a{
   width: 10%;
 }
 .header_a{
-  color: #fff;
   text-transform: uppercase;
   white-space: nowrap;
+  line-height: 16px;
   writing-mode: tb-lr;
   -webkit-writing-mode: vertical-lr;
   -ms-writing-mode: vertical-lr;
@@ -72,27 +72,40 @@ a{
   font-size: 17px;
 }
 .en_p{
+  font-family: Times;
   color: #b7b3b1;
   font-size: 12px;
   padding-left: 5px;
+}
+.header_a:hover .cn_p,
+.header_a:hover .en_p{
+  color: #ac8f58;
 }
 .header_language{
   display: inline-block;
   width: 30px;
   text-align: right;
 }
-.language{
+.header_language a{
   display: block;
   width: 30px;
   height: 30px;
   line-height: 30px;
   text-align: center;
   color: #ffffff;
-  background: #d2d2d2;
   border-radius: 50%;
   margin-bottom: 10px;
 }
-.header_language a:hover {
+.header_language a{
+  background: #d2d2d2;
+}
+.header_language a.on{
+  background: #ac8f58;
+}
+.header_language:hover a.on{
+  background: #d2d2d2;
+}
+.header_language:hover a:hover{
   background: #ac8f58;
 }
 /* header end */
@@ -212,28 +225,23 @@ a{
   position: relative;
   z-index: 99;
 }
-.visibility {
-  visibility: hidden;
-  height: 770px;
-}
 .index_banner img{
   display: block;
+  max-width: 100%;
 }
 .index_span{
   position: absolute;
-  width: 100%;
-  height: 770px;
-  background: url("./img/banner.png");
+  display: block;
+  max-width: 100%;
 }
 .index_logo{
   position: fixed;
-  width: 100%;
-  height: 770px;
   z-index: 2;
+  width: 100%;
 }
 .top_table{
   width: 100%;
-  height: 100%;
+  height: 770px;
   display: table;
   vertical-align: middle;
 }
@@ -241,6 +249,15 @@ a{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+}
+.visibility {
+  width: 100%;
+  height: auto;
+}
+.visibility img{
+  visibility: hidden;
+  display: block;
+  width: 100%;
 }
 /* index_brand */
 .index_brand{
@@ -258,10 +275,12 @@ a{
   font-family: 仿宋;
   font-size: 30px;
   display: inline-block;
+  text-align: center;
   line-height: 30px;
   margin: 0 0 35px 0;
 }
 .title1 span{
+  font-family: Times;
   display: block;
   text-transform: uppercase;
   font-size: 15px;
@@ -277,5 +296,28 @@ a{
   background: #fff;
 }
 .case_content{
-  height: 540px;
+  width: 100%;
+  height: 460px;
+  padding: 40px 0 40px 0;
+  display: table;
+}
+.case_left{
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+.case_right{
+  display: table-cell;
+  text-align: right;
+}
+.xian{
+  margin: 10px 0 10px 0;
+  border-bottom: 1px solid #dfdfdf;
+  width: 30px;
+}
+.case_box{
+  display: inline-block;
+  width: 700px;
+  height: 390px;
+  border: 1px solid #dfdfdf;
 }

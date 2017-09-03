@@ -62,8 +62,8 @@
                 </ul>
             </nav>
             <div class="header_language">
-                <a href="" class="language">中</a>
-                <a href="" class="language">EN</a>
+                <a href="" class="on">中</a>
+                <a href="">EN</a>
             </div>
         </div>
     </div>
