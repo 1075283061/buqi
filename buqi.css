@@ -211,7 +211,10 @@ a{
 .index_body{
   position: relative;
   z-index: 99;
-  padding-top: 770px;
+}
+.visibility {
+  visibility: hidden;
+  height: 770px;
 }
 .index_banner img{
   display: block;

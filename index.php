@@ -12,6 +12,7 @@
         </div>
       </div>
     </div>
+    <div class="visibility"></div>
     <div class="index_body">
       <?php require_once "./header.php";?>
       <!-- index_brand -->
