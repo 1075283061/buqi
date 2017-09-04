@@ -60,9 +60,15 @@
           </div>
         </div>
         <div class="main_rt">
-          <a href="">w</a>
-          <a href="">q</a>
-          <a href="">x</a>
+          <a href="">
+            <img src="./img/w.png" alt="w">
+          </a>
+          <a href="http://connect.qq.com/widget/shareqq/index.html?url=http%3A%2F%2Fbqfz.cisve.com%2F%3Flang%3Dcn%230-sqq-1-77682-9737f6f9e09dfaf5d3fd14d775bfee85&title=%E6%B5%B7%E5%AE%81%E5%B8%83%E5%A5%87%E7%BA%BA%E7%BB%87%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%7C%20%E6%B5%B7%E5%AE%81%E5%B8%83%E5%A5%87%E7%BA%BA%E7%BB%87%7C%E5%B8%83%E5%A5%87%E7%BA%BA%E7%BB%87%7C%E6%B5%B7%E5%AE%81%E5%B8%83%E5%A5%87-%E6%B5%B7%E5%AE%81%E5%B8%83%E5%A5%87%E7%BA%BA%E7%BB%87%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&desc=&summary=&site=baidu">
+            <img src="./img/q.png" alt="q">
+          </a>
+          <a href="http://service.weibo.com/share/share.php?url=http%3A%2F%2Fbqfz.cisve.com%2F%3Flang%3Dcn%230-tsina-1-3251-397232819ff9a47a7b7e80a40613cfe1&title=%E6%B5%B7%E5%AE%81%E5%B8%83%E5%A5%87%E7%BA%BA%E7%BB%87%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%7C%20%E6%B5%B7%E5%AE%81%E5%B8%83%E5%A5%87%E7%BA%BA%E7%BB%87%7C%E5%B8%83%E5%A5%87%E7%BA%BA%E7%BB%87%7C%E6%B5%B7%E5%AE%81%E5%B8%83%E5%A5%87-%E6%B5%B7%E5%AE%81%E5%B8%83%E5%A5%87%E7%BA%BA%E7%BB%87%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&appkey=1343713053&searchPic=true&sudaref=s.share.baidu.com&retcode=6102#_loginLayer_1504527913187">
+            <img src="./img/x.png" alt="x">
+          </a>
           <p>|</p>
           <a href="#">&#8593;</a>
         </div>

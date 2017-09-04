@@ -12,13 +12,13 @@
                         </a>   
                     </li>
                     <li class="header_li">
-                        <a class="header_a" href="">
+                        <a class="header_a" href="./index_body">
                         <p class="cn_p">走进布奇</p>
                         <p class="en_p">Into the Bq</p>
                         </a>   
                     </li>
                     <li class="header_li">
-                        <a class="header_a" href="">
+                        <a class="header_a" href="./about.php">
                         <p class="cn_p">关于布奇</p>
                         <p class="en_p">about bq</p>
                         </a>   
