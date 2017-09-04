@@ -8,7 +8,7 @@
             <li class="footer_li">
               <dl>
                 <dt>
-                  <a href="">关于布奇</a>
+                  <a href="./about.php">关于布奇</a>
                 </dt>
                 <dd>
                   <a href="">品牌故事</a>

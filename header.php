@@ -1,7 +1,7 @@
 <header class="tem_header">
 <div class="tem_div">
     <div class="header_div">
-        <a class="logo" href=""><img src="./img/logo.png" alt="LOGO"></a>
+        <a class="logo" href="./index.php"><img src="./img/logo.png" alt="LOGO"></a>
         <div class="header_rt">
             <nav class="header_nav">
                 <ul class="header_ul">
@@ -12,7 +12,7 @@
                         </a>   
                     </li>
                     <li class="header_li">
-                        <a class="header_a" href="./index_body">
+                        <a class="header_a" href="./index_body.php">
                         <p class="cn_p">走进布奇</p>
                         <p class="en_p">Into the Bq</p>
                         </a>   

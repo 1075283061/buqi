@@ -13,7 +13,7 @@
       <div class="logo">
         <img src="./logo.png" alt="logo">
         <div class="language">
-          <a href="./index2">中文</a>
+          <a href="./index_body.php">中文</a>
           <i></i>
           <a href="">英文</a>
         </div>
