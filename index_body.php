@@ -1,9 +1,20 @@
 <?php require_once "./head.php";?>
     <!-- banner -->
-    <div class="index_banner">
+    <div class="index_banner owl-carousel owl-theme">
+      <div class="item" style=" background: #b7b3b1;">
       <img src="./img/banner.png" alt="banner" class="index_span">
-      <img src="./img/index_banner1.jpg" alt="index_banner">
+          <img src="./img/index_banner1.jpg" alt="banner">
+      </div>
+      <div class="item" style=" background: #dfdfdf;">
+      <img src="./img/banner.png" alt="banner" class="index_span">
+          <img src="./img/index_banner1.jpg" alt="banner">
+      </div>
+      <div class="item" style=" background: #fff;">
+      <img src="./img/banner.png" alt="banner" class="index_span">
+          <img src="./img/index_banner1.jpg" alt="banner">
+      </div>
     </div>
+    <script url="./banner.js"></script>
     <!-- index_logo -->
     <div class="logo_div">
       <div class="visibility">
