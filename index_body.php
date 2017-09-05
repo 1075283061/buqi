@@ -1,8 +1,8 @@
 <?php require_once "./head.php";?>
     <!-- banner -->
-    <div class="index_banner">
-      <img src="./img/banner.png" alt="banner" class="index_span">
-      <img src="./img/index_banner1.jpg" alt="index_banner">
+    <div class="index_banner owl-theme owl-carousel">
+        <img src="./img/index_banner1.jpg" alt="index_banner">
+        <img src="./img/banner.png" alt="banner" class="">
     </div>
     <!-- index_logo -->
     <div class="logo_div">
@@ -76,7 +76,8 @@
                   <script>
                       $(document).ready(function(){
                           $(".owl-carousel").owlCarousel({
-                              items:1
+                              items:1,
+                              autoplay: true
                           });
                       });
                   </script>
