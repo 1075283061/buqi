@@ -14,7 +14,7 @@
           <img src="./img/index_banner1.jpg" alt="banner">
       </div>
     </div>
-    <script url="./banner.js"></script>
+    <script src="./banner.js"></script>
     <!-- index_logo -->
     <div class="logo_div">
       <div class="visibility">
