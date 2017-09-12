@@ -1,7 +1,5 @@
 <?php require_once "./head.php";?>
 <?php require_once "./header.php";?>
-
-的个人合同附件一`
 <!-- stroy -->
 <section class="stroy">
   <div class="tem_div">
